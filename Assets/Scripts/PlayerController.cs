@@ -14,6 +14,10 @@ public class PlayerController : MonoBehaviour
     private float rollInput;
     public float rollSpeed = 90f, rollAcceleration = 3.5f;
 
+    public Rigidbody projectilePrefab;
+    public Transform[] firePoints;
+    private float launchForce = 5000f;
+
     void Start()
     {
         screenCenter.x = Screen.width * .5f;
@@ -41,9 +45,24 @@ public class PlayerController : MonoBehaviour
         activeStrafeSpeed = Mathf.Lerp(activeStrafeSpeed, Input.GetAxisRaw("Horizontal") * strafeSpeed, strafeAcceleration * Time.deltaTime);
         activeHoverSpeed = Mathf.Lerp(activeHoverSpeed, Input.GetAxisRaw("Hover") * hoverSpeed, hoverAcceleration * Time.deltaTime);
 
-        transform.position += transform.forward * activeForwardSpeed * Time.deltaTime;
+        transform.position += (transform.forward * activeForwardSpeed * Time.deltaTime);
         transform.position += (transform.right * activeStrafeSpeed * Time.deltaTime);
         transform.position += (transform.up * activeHoverSpeed * Time.deltaTime);
 
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Fire();
+        }      
+
     }
+
+    void Fire()
+    {
+        foreach (var firePoint in firePoints)
+        {
+            var projectileInstance = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            projectileInstance.AddForce(firePoint.forward * launchForce);
+        }   
+    }
+    
 }

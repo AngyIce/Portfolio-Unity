@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3381880}
   - component: {fileID: 2386568}
   - component: {fileID: -6783553984759180298}
+  - component: {fileID: 4245692891490752313}
+  - component: {fileID: -3017228191195329562}
   m_Layer: 0
   m_Name: Glowing Rock Green 4
   m_TagString: Untagged
@@ -101,3 +103,29 @@ MonoBehaviour:
   ReverseX: 0
   ReverseY: 0
   ReverseZ: 0
+--- !u!114 &4245692891490752313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e775678133902f4bb783e57a637daee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &-3017228191195329562
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e5e4441823c439140994095f3b435697, type: 3}

@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3363500}
   - component: {fileID: 2342392}
   - component: {fileID: -4961282331732519852}
+  - component: {fileID: -7476532425065851185}
+  - component: {fileID: -2399138008849758426}
   m_Layer: 0
   m_Name: Scifi Rock Green 2
   m_TagString: Untagged
@@ -101,3 +103,29 @@ MonoBehaviour:
   ReverseX: 0
   ReverseY: 0
   ReverseZ: 0
+--- !u!114 &-7476532425065851185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e775678133902f4bb783e57a637daee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &-2399138008849758426
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 5f84440179351c0488a747209d0afb80, type: 3}

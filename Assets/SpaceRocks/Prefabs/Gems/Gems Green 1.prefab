@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3398044}
   - component: {fileID: 2307876}
   - component: {fileID: 2870971941212856923}
+  - component: {fileID: -2519498768207190553}
+  - component: {fileID: -7050168505286374498}
   m_Layer: 0
   m_Name: Gems Green 1
   m_TagString: Untagged
@@ -101,3 +103,29 @@ MonoBehaviour:
   ReverseX: 1
   ReverseY: 0
   ReverseZ: 1
+--- !u!114 &-2519498768207190553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e775678133902f4bb783e57a637daee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &-7050168505286374498
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 7a6ed968a271ff14bb49214d26bee35c, type: 3}

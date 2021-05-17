@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3302352}
   - component: {fileID: 2395428}
   - component: {fileID: -4323448347491182546}
+  - component: {fileID: -2824302621734173217}
+  - component: {fileID: 5382229702595917179}
   m_Layer: 0
   m_Name: Gems Orange 3
   m_TagString: Untagged
@@ -101,3 +103,29 @@ MonoBehaviour:
   ReverseX: 1
   ReverseY: 0
   ReverseZ: 1
+--- !u!114 &-2824302621734173217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e775678133902f4bb783e57a637daee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &5382229702595917179
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9ee6682aebd6ecb46a4f254f815c05c3, type: 3}

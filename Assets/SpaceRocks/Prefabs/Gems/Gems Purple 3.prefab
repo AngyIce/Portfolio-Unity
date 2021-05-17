@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3310438}
   - component: {fileID: 2396050}
   - component: {fileID: 7135187922699567008}
+  - component: {fileID: -6376747233250116563}
+  - component: {fileID: -7591181615975741305}
   m_Layer: 0
   m_Name: Gems Purple 3
   m_TagString: Untagged
@@ -101,3 +103,29 @@ MonoBehaviour:
   ReverseX: 1
   ReverseY: 0
   ReverseZ: 1
+--- !u!114 &-6376747233250116563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e775678133902f4bb783e57a637daee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &-7591181615975741305
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: de0bde46cbb8dfb419e33e1a38b7b825, type: 3}

@@ -172,6 +172,8 @@ GameObject:
   m_Component:
   - component: {fileID: 445206}
   - component: {fileID: 4941587505180167576}
+  - component: {fileID: 1218452561556675127}
+  - component: {fileID: 4302201083592233700}
   m_Layer: 0
   m_Name: Glowing Rock Purple 2
   m_TagString: Untagged
@@ -214,3 +216,29 @@ MonoBehaviour:
   ReverseX: 0
   ReverseY: 1
   ReverseZ: 1
+--- !u!114 &1218452561556675127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e775678133902f4bb783e57a637daee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &4302201083592233700
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183710}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
