@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public Transform[] firePoints;
     private float launchForce = 5000f;
 
+    private AudioSource mAudioSrc;
+
     void Start()
     {
         screenCenter.x = Screen.width * .5f;
@@ -25,6 +27,8 @@ public class PlayerController : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = false;
+
+        mAudioSrc = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -52,6 +56,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Fire();
+            mAudioSrc.Play();
         }      
 
     }
