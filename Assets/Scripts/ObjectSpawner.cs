@@ -11,15 +11,15 @@ public class ObjectSpawner : MonoBehaviour
     private int yPos;
     private int zPos;
     private int objectToGenerate;
-    private int objectQuantity = 500;
+    private int objectQuantity = 600;
 
     void Start()
     {
 
         for (int i = 0; i < objectQuantity; i++)
         {
-            xPos = Random.Range(-200, 200);
-            yPos = Random.Range(-200, 200);
+            xPos = Random.Range(-250, 250);
+            yPos = Random.Range(-250, 250);
             zPos = Random.Range(-250, 250);
 
             objectToGenerate = Random.Range(0, spawnableObjects.Length);
