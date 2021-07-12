@@ -11,7 +11,7 @@ public class AsteroidsExplosion : MonoBehaviour
         if (collision.gameObject.CompareTag("Projectile"))
         {
             gameObject.SetActive(false);
-            Instantiate(spawnObject, transform.position += Vector3.up * 5.0f, transform.rotation);
+            Instantiate(spawnObject, transform.position, transform.rotation);
         }
     }
 }
