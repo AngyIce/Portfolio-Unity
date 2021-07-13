@@ -422,7 +422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea5e39bdbc33e84c81edb70f1c281dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  URL: https://www.youtube.com/watch?v=LORXxoVcnMU&ab_channel=SunShiftersGames
+  URL: https://www.youtube.com/watch?v=6V7oiElQnsg&ab_channel=SunShiftersGames
 --- !u!1001 &51948053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6568,7 +6568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea5e39bdbc33e84c81edb70f1c281dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  URL: https://www.youtube.com/watch?v=vO41bT33Nig&ab_channel=SunShiftersGames
+  URL: https://www.youtube.com/watch?v=fCQ79HJ0hj0&ab_channel=SunShiftersGames
 --- !u!1 &1434984210
 GameObject:
   m_ObjectHideFlags: 0

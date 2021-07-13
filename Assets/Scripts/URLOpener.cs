@@ -11,7 +11,7 @@ public class URLOpener : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Projectile") && (isOpened == false))
         {
-           // Application.OpenURL(URL);
+            Application.OpenURL(URL);
             isOpened = true;
         }     
     }
